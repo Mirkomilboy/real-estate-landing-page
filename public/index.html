@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-open-sans">
+    <header>
+        <div class="relative z-10 text-white flex items-center justify-between max-w-83rem mx-auto pl-4 lg:pl-20 pr-4">
+            <div class="py-6">
+                <a class="text-xl sm:text-3xl lg:text-5xl" href="index.html">Logo Here</a>
+            </div>
+
+            <div class="hidden lg:flex items-center uppercase space-x-12">
+                <button class="flex items-center border-b-4 border-brand-blue hover:border-brand-yellow hover:text-brand-yellow space-x-2 py-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <span class="uppercase">search</span>
+                </button>
+                <a class="border-b-4 border-brand-blue hover:border-brand-yellow hover:text-brand-yellow py-10" href="#">properties</a>
+                <a class="border-b-4 border-brand-blue hover:border-brand-yellow hover:text-brand-yellow py-10" href="#">agents</a>
+                <a class="border-b-4 border-brand-blue hover:border-brand-yellow hover:text-brand-yellow py-10" href="#">stories</a>
+            </div>
+
+            <div class="flex items-center uppercase">
+                <a class="text-brand-yellow font-bold text-sm tracking-widest border-2 border-brand-yellow hover:text-brand-blue hover:bg-brand-yellow transition ease-in-out duration-300 py-2 sm:py-3 px-6 sm:px-12" href="#">lorem ipsum</a>
+
+                <button class="lg:hidden ml-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="absolute z-0 top-0 left-0 w-full h-screen bg-brand-blue"></div>
+    </header>
+
+    <main>
+        <!-- hero -->
+        <section class="relative z-10 overflow-hidden bg-no-repeat bg-cover bg-center">
+            <div style="background-image: url(assets/home-2.png);" class="mr-16 sm:mr-28">
+                <div class="relative z-10 max-w-83rem mx-auto pl-4 lg:pl-20 xl:pl-32 pr-4 py-36 sm:py-52 md:py-64">
+                    <h1 class="text-3xl sm:text-5xl lg:text-7xl text-white max-w-2xl pb-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <div class="inline-block sm:pr-4 pb-4">
+                        <a class="flex items-center text-brand-yellow bg-gray-800/40 border-2 border-brand-yellow hover:text-brand-blue hover:bg-brand-yellow transition ease-in-out duration-300 space-x-4 py-2 pr-4" href="#">
+                            <span class="uppercase font-bold px-8">lorem ipsum</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="inline-block">
+                        <a class="flex items-center text-brand-yellow bg-gray-800/40 border-2 border-brand-yellow hover:text-brand-blue hover:bg-brand-yellow transition ease-in-out duration-300 space-x-4 py-2 pr-4" href="#">
+                            <span class="uppercase font-bold px-8">lorem ipsum</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute z-10 top-0 right-0 w-16 sm:w-28 flex flex-col items-center space-y-4">
+                <div class="w-0.5 h-20 sm:h-36 md:h-52 bg-brand-yellow"></div>
+                <p class="font-bold text-white uppercase transform rotate-90 text-xs sm:text-sm w-24 sm:w-32 py-12">follow us on</p>
+                <a class="block flex-shrink-0 bg-brand-yellow rounded-full py-2 px-13px" href="#"><img src="assets/facebook.png" alt=""></a>
+                <a class="block flex-shrink-0 bg-brand-yellow rounded-full p-2" href="#"><img src="assets/twitter.png" alt=""></a>
+                <a class="block flex-shrink-0 bg-brand-yellow rounded-full py-2 px-9px" href="#"><img src="assets/google.png" alt=""></a>
+                <a class="block flex-shrink-0 bg-brand-yellow rounded-full p-2 px-9px" href="#"><img src="assets/instagram.png" alt=""></a>
+                <div class="w-0.5 h-96 bg-brand-yellow"></div>
+            </div>
+
+            <div class="absolute top-0 left-0 z-0 w-full h-full linear-bg"></div>
+        </section>
+
+        <section class="relative max-w-6xl mx-auto md:flex items-center py-28 px-4">
+            <div class="w-full md:w-1/2">
+                <h1 class="text-3xl md:text-5xl pb-12 sm:pb-16 md:pb-24">Lorem ipsum, dolor sit amet elit. Modi eos dicta.</h1>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, id. Sequi exercitationem aut officia nihil cumque eum ab numquam labore necessitatibus nostrum laborum sint voluptates, illum aspernatur veniam error quae?</p>
+                <div class="absolute top-56 sm:top-48 md:top-1/2 left-0 h-2 md:max-w-2xl lg:max-w-3xl w-full bg-brand-yellow"></div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <img class="w-full pt-10 md:pt-0 md:pl-20" src="assets/Layer 1.png" alt="">
+            </div>
+        </section>
+
+        <section class="relative max-w-6xl mx-auto md:pt-20 px-4">
+            <div>
+                <img class="relative z-10 w-full md:w-1/2" src="assets/Layer 2.png" alt="">
+            </div>
+
+            <div class="relative md:absolute z-0 top-0 right-0 bg-brand-blue text-white md:max-w-2xl w-full md:mx-4 p-4 sm:p-8 md:pt-32 lg:pr-20 md:pb-28 md:pl-80 lg:pl-48">
+                <h1 class="text-xl sm:text-3xl lg:text-4xl leading-snug pb-4 sm:pb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint perferendis alias?</h1>
+                <p class="sm:leading-loose text-sm sm:text-base lg:text-lg text-gray-300 lg:pr-36 pb-10 lg:pb-16">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam debitis dolores quidem iusto illum voluptate quis asperiores repudiandae sint quaerat. Lorem ipsum dolor sit amet.</p>
+                <div class="inline-block">
+                    <a class="flex items-center text-brand-yellow bg-gray-800/40 border-2 border-brand-yellow hover:text-brand-blue hover:bg-brand-yellow transition ease-in-out duration-300 space-x-4 py-2 pr-4" href="#">
+                        <span class="uppercase font-bold px-8">lorem ipsum</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative flex flex-col md:flex-none max-w-6xl mx-auto py-20 px-4">
+            <div class="order-2 relative md:absolute z-0 top-0 left-0 bg-brand-blue text-white md:max-w-2xl w-full md:mx-4 p-4 sm:p-8 md:pt-3 lg:pl-20 md:pb-20 md:pr-80 lg:pr-48">
+                <h1 class="text-xl sm:text-3xl lg:text-4xl leading-snug pb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint perferendis alias?</h1>
+                <p class="sm:leading-loose text-sm sm:text-base lg:text-lg text-gray-300 lg:pr-36 pb-10 lg:pb-16">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam debitis dolores quidem iusto illum voluptate quis asperiores repudiandae sint quaerat. Lorem ipsum dolor sit amet.</p>
+                <div class="inline-block pr-4">
+                    <a class="flex items-center text-brand-yellow bg-gray-800/40 border-2 border-brand-yellow hover:text-brand-blue hover:bg-brand-yellow transition ease-in-out duration-300 space-x-4 py-2 pr-4" href="#">
+                        <span class="uppercase font-bold px-8">lorem ipsum</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="order-1">
+                <img class="relative z-10 w-full md:w-1/2 ml-auto" src="assets/Layer 3.png" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

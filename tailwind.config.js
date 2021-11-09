@@ -18,7 +18,7 @@ module.exports = {
       spacing: {
         '9px': '9px',
         '13px': '13px',
-        '70per': '70%',
+        '80per': '80%',
       },
       maxWidth: {
         '83rem': '83rem'
